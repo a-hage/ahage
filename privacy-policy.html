@@ -5,38 +5,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy for Quran & Duas – Haqibati</title>
     <style>
+        :root {
+            --bg-color: #f9f9fb;
+            --card-bg: #ffffff;
+            --text-color: #2c3e50;
+            --heading-color: #1a252f;
+            --border-color: #e2e8f0;
+            --accent-color: #0d6efd;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #121212;
+                --card-bg: #1e1e1e;
+                --text-color: #e0e0e0;
+                --heading-color: #ffffff;
+                --border-color: #333333;
+                --accent-color: #3d8bfd;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            padding: 24px 16px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 40px 32px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            color: var(--heading-color);
+            font-size: 2rem;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .effective-date {
+            font-size: 0.95rem;
+            color: #6c757d;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h2 {
+            color: var(--heading-color);
+            font-size: 1.25rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            font-size: 1rem;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 12px 8px;
+            }
+
+            .container {
+                padding: 24px 16px;
+                border-radius: 8px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+            }
         }
     </style>
 </head>
 <body>
 
-    <h1>Privacy Policy for Quran & Duas – Haqibati</h1>
+    <div class="container">
+        <h1>Privacy Policy for Quran & Duas – Haqibati</h1>
+        <p class="effective-date"><strong>Effective Date:</strong> September 3, 2026</p>
 
-    <p><strong>Effective Date:</strong> September 3, 2026</p>
+        <p>Thank you for using <strong>Quran & Duas – Haqibati</strong>! This Privacy Policy outlines how we handle user data in our Android application.</p>
 
-    <p>Thank you for using <strong>Quran & Duas – Haqibati</strong>! This Privacy Policy outlines how we handle user data in our Android application.</p>
+        <h2>1. Information We Collect</h2>
+        <p>We do not collect, store, or transmit any personally identifiable information. The app provides access to Islamic media and educational content (such as Quran recitations and audio resources). While the app accesses online resources to deliver media content, it does not track personal user identities or collect personal data.</p>
 
-    <h2>1. Information We Collect</h2>
-    <p>We do not collect, store, or transmit any personally identifiable information. The app provides access to Islamic media and educational content (such as Quran recitations and audio resources). While the app accesses online resources to deliver media content, it does not track personal user identities or collect personal data.</p>
+        <h2>2. Permissions and Data Handling</h2>
+        <p>Our app only uses standard network permissions required to stream or download audio content for offline playback. We do not access your device's camera, contacts, precise location, or personal files.</p>
 
-    <h2>2. Permissions and Data Handling</h2>
-    <p>Our app only uses standard network permissions required to stream or download audio content for offline playback. We do not access your device's camera, contacts, precise location, or personal files.</p>
+        <h2>3. Third-Party Services</h2>
+        <p>The app relies on secure cloud infrastructure (such as Firebase Hosting / AWS) to serve media assets and host this privacy policy. These services process basic technical requests (like IP addresses for network routing) solely to deliver content to your device and do not build user profiles.</p>
 
-    <h2>3. Third-Party Services</h2>
-    <p>The app relies on secure cloud infrastructure (such as Firebase Hosting / AWS) to serve media assets and host this privacy policy. These services process basic technical requests (like IP addresses for network routing) solely to deliver content to your device and do not build user profiles.</p>
+        <h2>4. Data Security</h2>
+        <p>Since we do not collect or request personal user data, your privacy is protected by design. All operational media delivery is handled through standard encrypted protocols (HTTPS).</p>
 
-    <h2>4. Data Security</h2>
-    <p>Since we do not collect or request personal user data, your privacy is protected by design. All operational media delivery is handled through standard encrypted protocols (HTTPS).</p>
+        <h2>5. Changes to this Privacy Policy</h2>
+        <p>In the event of any changes to our privacy practices or features, we will update this policy accordingly. Please check this policy regularly for updates.</p>
 
-    <h2>5. Changes to this Privacy Policy</h2>
-    <p>In the event of any changes to our privacy practices or features, we will update this policy accordingly. Please check this policy regularly for updates.</p>
-
-    <h2>6. Contact Information</h2>
-    <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at abdoelhage@gmail.com.</p>
+        <h2>6. Contact Information</h2>
+        <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at <a href="mailto:abdoelhage@gmail.com">abdoelhage@gmail.com</a>.</p>
+    </div>
 
 </body>
 </html>
