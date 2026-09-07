@@ -1,1 +1,11 @@
 
+{
+  "latestVersionCode": 203,
+  "latestVersionName": "1.1.203",
+  "priority": 3,
+  "updateMessage": {
+    "de": "Test: Ein neues Update ist verfügbar!",
+    "en": "Test: A new update is available!",
+    "ar": "تجربة: تحديث جديد متاح!"
+  }
+}
